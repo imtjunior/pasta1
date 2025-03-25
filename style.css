@@ -1,0 +1,63 @@
+/* Resetando alguns estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.sobre-motos p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Galeria de imagens */
+.galeria .imagens {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.galeria img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
