@@ -8,7 +8,7 @@
 /* Corpo */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f4f4f4;
     color: #333;
 }
 
@@ -19,7 +19,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    padding: 10px 0;
+    padding: 15px 0;
     z-index: 1000;
 }
 
@@ -37,6 +37,8 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     transition: color 0.3s ease;
 }
 
@@ -62,6 +64,21 @@ header h1 {
 
 header p {
     font-size: 1.5em;
+}
+
+header .btn {
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+header .btn:hover {
+    background-color: #e67e22;
 }
 
 /* Seções */
@@ -94,6 +111,7 @@ h2 {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    text-align: center;
 }
 
 .modelo-item img {
