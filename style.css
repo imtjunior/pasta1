@@ -1,18 +1,14 @@
-/* Resetando os estilos padrões */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Corpo */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
-
-/* Navegação */
 .navbar {
     background-color: #333;
     position: fixed;
@@ -45,8 +41,6 @@ body {
 .navbar a:hover {
     color: #f39c12;
 }
-
-/* Cabeçalho */
 header {
     background: url('https://via.placeholder.com/1600x800?text=Banner+de+Carros') no-repeat center center/cover;
     height:
