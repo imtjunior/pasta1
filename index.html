@@ -3,31 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site sobre Motos</title>
+    <title>Motociclismo: Paixão Sobre Duas Rodas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Bem-vindo ao Mundo das Motos!</h1>
-        <p>Conheça mais sobre as motos e sua paixão sobre duas rodas.</p>
+
+    <!-- Navegação -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#modelos">Modelos</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Seção Home -->
+    <header id="home">
+        <div class="header-content">
+            <h1>Bem-vindo ao Mundo das Motos!</h1>
+            <p>Aventura, liberdade e velocidade. O que mais você quer?</p>
+        </div>
     </header>
 
-    <section class="sobre-motos">
-        <h2>O que são Motos?</h2>
-        <p>As motos são veículos de duas rodas que oferecem uma experiência única de mobilidade e liberdade. São populares em todo o mundo, com diversos modelos, desde as mais simples até as mais sofisticadas.</p>
-    </section>
-
-    <section class="galeria">
-        <h2>Galeria de Motos</h2>
-        <div class="imagens">
-            <img src="https://via.placeholder.com/300x200?text=Moto+1" alt="Moto 1">
-            <img src="https://via.placeholder.com/300x200?text=Moto+2" alt="Moto 2">
-            <img src="https://via.placeholder.com/300x200?text=Moto+3" alt="Moto 3">
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <div class="container">
+            <h2>O que é o motociclismo?</h2>
+            <p>O motociclismo é mais do que um meio de transporte, é uma paixão que conecta pessoas em todo o mundo. Seja para passeios, competições ou simples diversão, as motos oferecem liberdade e emoção.</p>
         </div>
     </section>
 
+    <!-- Seção Modelos -->
+    <section id="modelos">
+        <div class="container">
+            <h2>Modelos Populares</h2>
+            <div class="modelos-list">
+                <div class="modelo-item">
+                    <img src="images/moto1.jpg" alt="Moto 1">
+                    <h3>Moto Sport</h3>
+                    <p>Para quem busca velocidade e performance.</p>
+                </div>
+                <div class="modelo-item">
+                    <img src="images/moto2.jpg" alt="Moto 2">
+                    <h3>Moto Cruiser</h3>
+                    <p>Conforto e estilo para longas viagens.</p>
+                </div>
+                <div class="modelo-item">
+                    <img src="images/moto3.jpg" alt="Moto 3">
+                    <h3>Moto Adventure</h3>
+                    <p>Pronta para qualquer terreno, ideal para aventuras.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Galeria -->
+    <section id="galeria">
+        <div class="container">
+            <h2>Galeria de Motos</h2>
+            <div class="galeria-images">
+                <img src="images/moto1.jpg" alt="Moto 1">
+                <img src="images/moto2.jpg" alt="Moto 2">
+                <img src="images/moto3.jpg" alt="Moto 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <form action="#">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
     <footer>
-        <p>&copy; 2025 Site sobre Motos. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Motociclismo. Todos os direitos reservados.</p>
     </footer>
+
 </body>
 </html>
